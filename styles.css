@@ -141,7 +141,7 @@ html, body {
   font-family: monospace;
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
-  color: var(--orange);
+  
   min-height: 2.2rem;
 }
 
@@ -149,7 +149,7 @@ html, body {
   font-family: monospace;
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
-  color: var(--orange);
+  color: var(--lighter-orange);
   min-height: 2.2rem;
 }
 
@@ -190,7 +190,7 @@ html, body {
 }
 
 .highlight {
-  color: var(--orange);
+  color: var(--lighter-orange);
   font-weight: bold;
 }
 

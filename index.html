@@ -173,9 +173,9 @@
     </div>
     <div class="hero-content">
       <h1 class="hero-title">ARCHYTAS</h1>
-      <p class="hero-subtitle">Making Fossil Fuels...</p>
+      <p class="hero-subtitle">Making the world's</p>
       <div class="hero-subtitle-type"><span id="typing-word">Green</span></div>
-      <p class="hero-description">Revolutionary modular chemical reactors that transform abundant coal and gas into clean liquid fuels with <span class="highlight">5x cost savings</span></p>
+      <p class="hero-description">Radically cheap, zero-emission <span class="highlight">energy</span> from carbon-based fuels</p>
     </div>
   </section>
 
@@ -251,19 +251,6 @@
   </footer>
 
   <script>
-    // Load ASCII art from external file
-    async function loadAsciiArt() {
-      try {
-        const response = await fetch('ascii-art.txt');
-        const asciiText = await response.text();
-        document.getElementById('ascii-content').textContent = asciiText;
-        // Adjust line height after loading
-        adjustAsciiLineHeight();
-      } catch (error) {
-        console.error('Failed to load ASCII art:', error);
-        // Fallback - keep empty if file can't be loaded
-      }
-    }
 
     // Function to adjust ASCII art line height to fit 100vh
     function adjustAsciiLineHeight() {
@@ -293,7 +280,7 @@
     }
 
     // Typing animation for hero subtitle
-    const words = ['Green', 'Cheap', 'Local', 'Clean', 'Efficient'];
+    const words = ['Hydrogen', 'Liquid Fuels', 'Fertilizer', 'CO2'];
     let currentWordIndex = 0;
     let currentCharIndex = 0;
     let isDeleting = false;
@@ -343,7 +330,6 @@
     
     // Initialize everything when the page loads
     document.addEventListener('DOMContentLoaded', function() {
-      loadAsciiArt();
       adjustAsciiLineHeight();
       // getNavBarHeight();
       typeEffect();
