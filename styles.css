@@ -271,7 +271,7 @@ html, body {
     font-size: calc(1vw * 0.45);
     transform: scale(1);
     left: 0vw;
-    letter-spacing: calc(1vw * 0.05);
+    letter-spacing: calc(1vw * 0.035);
     color: var(--lighter-orange);
   }
 
