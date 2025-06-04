@@ -3,11 +3,17 @@
   src: url('cmunss.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Via Appia';
+  src: url('via_appia.ttf') format('truetype');
+}
+
 :root {
   --dark-blue: #14131a;
   --navy-blue: #1a1f3a;
   --orange: #dc520c;
-  --light-orange: #e67e22;
+  --light-orange: #e67e22; 
+  --lighter-orange: #f5b074;
   --light-gray: #e8e8e8;
   --ascii-blue: #4a90a4;
 }
@@ -136,6 +142,15 @@ html, body {
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
   color: var(--orange);
+  min-height: 2.2rem;
+}
+
+.hero-subtitle-type {
+  font-family: monospace;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: var(--orange);
+  min-height: 2.2rem;
 }
 
 .hero-description {
@@ -234,9 +249,10 @@ html, body {
   }
 
   .hero {
-    padding-left: 2rem;
+    padding-left: 0rem;
     align-items: center;
     text-align: center;
+    max-width: 100vw;
   }
 
   .hero-content {
@@ -244,7 +260,7 @@ html, body {
   }
 
   .hero-title {
-    font-size: 2.2rem;
+    font-size: 3rem;
   }
 
   .hero-subtitle {
@@ -252,8 +268,11 @@ html, body {
   }
 
   .ascii-bg {
-    font-size: calc(1vw * 0.3);
-    transform: scale(1.5);
+    font-size: calc(1vw * 0.45);
+    transform: scale(1);
+    left: 0vw;
+    letter-spacing: calc(1vw * 0.05);
+    color: var(--lighter-orange);
   }
 
   .section {
