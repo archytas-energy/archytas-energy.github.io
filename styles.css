@@ -217,8 +217,13 @@ html, body {
 
 /* Footer */
 .footer {
-  background: var(--dark-blue);
-  padding: 3rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  backdrop-filter: blur(1px);
+  z-index: 1000;
+  padding: 0rem 0;
+  padding-bottom: 4px;
   text-align: center;
   margin-top: 4rem;
 }
