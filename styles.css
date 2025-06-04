@@ -141,7 +141,7 @@ html, body {
   font-family: monospace;
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
-  
+  color: var(--orange);
   min-height: 2.2rem;
 }
 
@@ -210,7 +210,7 @@ html, body {
 }
 
 .card h3 {
-  font-family: 'Cinzel', serif;
+  font-family: 'CMU Sans Serif', serif;
   color: var(--orange);
   margin-bottom: 1rem;
 }
@@ -249,10 +249,11 @@ html, body {
   }
 
   .hero {
-    padding-left: 0rem;
+    
     align-items: center;
     text-align: center;
     max-width: 100vw;
+    padding-left: 0rem;
   }
 
   .hero-content {
@@ -271,7 +272,7 @@ html, body {
     font-size: calc(1vw * 0.45);
     transform: scale(1);
     left: 0vw;
-    letter-spacing: calc(1vw * 0.035);
+    letter-spacing: calc(1vw * 0.03);
     color: var(--lighter-orange);
   }
 
