@@ -104,10 +104,12 @@ html, body {
 
 .ascii-bg {
   position: absolute;
-  left: 7vw;
+
+  /*left: 7vw;*/
   right: 0;
   bottom: 0;
-  width: 95vw;
+  /*width: 95vw;*/
+  width: 100%;
   height: 100vh;
   font-family: monospace;
   white-space: pre;
@@ -286,3 +288,47 @@ html, body {
     padding-right: 1rem;
   }
 }
+
+.container {
+  max-width: 700px;
+  line-height: 1.4;
+}
+
+.title-block {
+  display: flex;
+  align-items: center; /* This aligns the subtitle next to the title */
+}
+
+.main-title {
+  font-family: 'Via Appia', 'Cinzel', serif;
+  font-size: 5rem;
+  font-weight: normal;
+  margin-bottom: 0rem;
+
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center; /* Center vertically */
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Courier New', Courier, monospace;
+  vertical-align: middle;
+  font-size: 1.5rem; /* Adjust the size as needed */
+  margin-left: 1.5rem; /* Space between ARCHYTAS and the subtitle */
+  color: #c0c0c0;
+  justify-content: center; /* Center vertically with respect to the middle of "ARCHYTAS" */
+  height: 100%; /* Allow it to stretch vertically to align with the center of ARCHYTAS */
+  transform: translateY(-0.25em);
+}
+
+.description {
+  margin-top: 2rem;
+  max-width: 295px;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  color: #aaa;
+}
+
